@@ -91,7 +91,7 @@ main >section{
 .banner-img{
     width: 100%;
 }
-/* teems and features related styles */
+/* teams and features related styles */
 .teams{
     align-items: center;
 }
@@ -107,6 +107,29 @@ main >section{
 
 #quick-list{
     font-weight: 500;
+}
+/* features section related styles */
+.features{
+    gap: 140px;
+  align-items:center ;
+    
+}
+#features-section-title{
+    border-left: 3px solid orange;
+    padding-left: 20px;
+}
+.feature-card{
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    background: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.feature-card , .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 /* fact related styles */
 .facts-container{
